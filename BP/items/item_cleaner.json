@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "merchantmind:item_cleaner",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "merchantmind_cleaner",
+      "minecraft:display_name": {
+        "value": "Merchant Mind Item Cleaner"
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:stacked_by_data": true,
+      "minecraft:max_stack_size": 1,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:hover_text_color": "light_purple"
+    }
+  }
+}

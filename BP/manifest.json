@@ -1,0 +1,42 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Merchant Mind",
+    "description": "AI shopkeeper for Minecraft Bedrock v1.4.4 (Randomized Shop & Restock Fix)",
+    "uuid": "aade0010-5e8f-44ff-9b46-c561a5bf2c86",
+    "version": [
+      1,
+      4,
+      4
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Main Scripting Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b9dbd765-48a6-4e99-a109-2f84ace4cdd9",
+      "version": [
+        1,
+        4,
+        4
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0"
+    }
+  ]
+}

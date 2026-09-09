@@ -1,0 +1,63 @@
+{
+  "namespace": "merchantmind_ui",
+  "charge_bar_screen": {
+    "type": "screen",
+    "low_priority": true,
+    "controls": [
+      {
+        "main_container": {
+          "type": "panel",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [0, 40],
+          "size": [100, 20],
+          "controls": [
+            {
+              "background": {
+                "type": "image",
+                "texture": "textures/ui/pocket_ui_highlight_selected_slot",
+                "size": ["100%", "100%"],
+                "color": [0, 0, 0, 0.5]
+              }
+            },
+            {
+              "progress_fill": {
+                "type": "image",
+                "texture": "textures/ui/pocket_ui_highlight_selected_slot",
+                "size": ["#charge_width", "100%"],
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "color": "#charge_color",
+                "bindings": [
+                  {
+                    "binding_name": "#charge_width",
+                    "binding_name_override": "#charge_width"
+                  },
+                  {
+                    "binding_name": "#charge_color",
+                    "binding_name_override": "#charge_color"
+                  }
+                ]
+              }
+            },
+            {
+              "label": {
+                "type": "label",
+                "text": "#charge_text",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "color": [1, 1, 1],
+                "bindings": [
+                  {
+                    "binding_name": "#charge_text",
+                    "binding_name_override": "#charge_text"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

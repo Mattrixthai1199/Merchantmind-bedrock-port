@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Merchant Mind",
+    "description": "Resources for Merchant Mind v1.4.4",
+    "uuid": "10612114-7f3f-493c-ba3b-39e597aa840b",
+    "version": [
+      1,
+      4,
+      4
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resource Module",
+      "type": "resources",
+      "uuid": "728a84b7-0d43-4f9c-9074-8c29de3f2712",
+      "version": [
+        1,
+        4,
+        4
+      ]
+    }
+  ]
+}

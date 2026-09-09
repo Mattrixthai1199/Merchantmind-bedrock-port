@@ -1,0 +1,4 @@
+item.merchantmind:shop_opener=Merchant Mind Shop
+item.merchantmind:shop_opener.desc=Right-click to open the AI Shop UI.
+item.merchantmind:item_cleaner=Merchant Mind Item Cleaner
+item.merchantmind:item_cleaner.desc=Right-click to clean all dropped items in the current dimension.

@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "MerchantMindRP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "merchantmind_shop_new": {
+      "textures": "textures/items/shop_opener_v4_final"
+    },
+    "merchantmind_cleaner": {
+      "textures": "textures/items/item_cleaner_final"
+    }
+  }
+}
